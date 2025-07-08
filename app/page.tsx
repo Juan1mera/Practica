@@ -410,7 +410,7 @@ export default function RestaurantPage() {
                     <Star key={j} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4 italic">"{testimonial.comment}"</p>
+                <p className="text-gray-600 mb-4 italic">{testimonial.comment}</p>
                 <p className="font-semibold text-gray-900">- {testimonial.name}</p>
               </Card>
             ))}
