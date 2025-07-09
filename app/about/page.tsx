@@ -13,19 +13,19 @@ export default function AboutPage() {
       name: "Милош Стојановић",
       role: "Шеф-повар",
       description: "15 лет опыта в лучших ресторанах Европы",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/1.jpg",
     },
     {
       name: "Ана Петровић",
       role: "Су-шеф",
       description: "Специалист по веганской кухне и здоровому питанию",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/3.jpg",
     },
     {
       name: "Марко Николић",
       role: "Сомелье",
       description: "Эксперт по винам Балканского региона",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/2.jpg",
     },
   ]
 
@@ -114,7 +114,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/team/placeholder.jpg"
                 alt="История ресторана"
                 width={500}
                 height={600}

@@ -51,7 +51,7 @@ export default function RestaurantPage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/placeholder.svg?height=800&width=1200')`,
+            backgroundImage: `url('/imgs/placeholder.jpg')`,
           }}
         />
         <div className="container mx-auto px-4 relative z-20">
@@ -113,7 +113,7 @@ export default function RestaurantPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/imgs/placeholder1.jpg"
                 alt="Интерьер ресторана"
                 width={600}
                 height={500}
@@ -348,7 +348,7 @@ export default function RestaurantPage() {
             {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
               <div key={i} className="relative aspect-square overflow-hidden rounded-lg group cursor-pointer">
                 <Image
-                  src={`/placeholder.svg?height=300&width=300`}
+                  src={`/imgs/${i}.jpg`}
                   alt={`Галерея ${i}`}
                   width={300}
                   height={300}

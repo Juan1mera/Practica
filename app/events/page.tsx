@@ -16,7 +16,7 @@ export default function EventsPage() {
       description: "Создайте незабываемый вечер для двоих",
       features: ["Отдельный столик", "Свечи и цветы", "Специальное меню", "Живая музыка"],
       price: "От 5,000 ₽ на пару",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/events/romantic.jpg",
     },
     {
       icon: <Briefcase className="h-8 w-8 text-blue-500" />,
@@ -24,7 +24,7 @@ export default function EventsPage() {
       description: "Профессиональное обслуживание деловых встреч",
       features: ["Отдельный зал", "Презентационное оборудование", "Кофе-брейки", "Индивидуальное меню"],
       price: "От 2,500 ₽ на человека",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/events/corporativa.jpg",
     },
     {
       icon: <Users className="h-8 w-8 text-green-500" />,
@@ -32,7 +32,7 @@ export default function EventsPage() {
       description: "Отпразднуйте важные моменты с близкими",
       features: ["Банкетный зал", "Детское меню", "Торт на заказ", "Фотозона"],
       price: "От 3,000 ₽ на человека",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/events/familia.jpg",
     },
     {
       icon: <Music className="h-8 w-8 text-purple-500" />,
@@ -40,7 +40,7 @@ export default function EventsPage() {
       description: "Наслаждайтесь живой музыкой и отличной едой",
       features: ["Живые выступления", "Танцпол", "Коктейльное меню", "Поздний ужин"],
       price: "От 1,800 ₽ на человека",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/events/music.jpg",
     },
   ]
 
@@ -51,7 +51,7 @@ export default function EventsPage() {
       time: "19:00",
       description: "Откройте для себя лучшие вина Балканского региона",
       price: "2,500 ₽",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/events/vino.jpg",
     },
     {
       title: "Мастер-класс от шефа",
@@ -59,7 +59,7 @@ export default function EventsPage() {
       time: "18:00",
       description: "Научитесь готовить фирменные блюда ресторана",
       price: "3,500 ₽",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/events/clase.jpg",
     },
     {
       title: "Джазовый вечер",
@@ -67,7 +67,7 @@ export default function EventsPage() {
       time: "20:00",
       description: "Живая джазовая музыка в уютной атмосфере",
       price: "1,500 ₽",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/events/jazz.jpg",
     },
   ]
 
